@@ -1,8 +1,8 @@
 # base image
-FROM node:9.6.1
+FROM mhart/alpine-node
 
 # set working directory
-RUN mkdir /usr/src/app
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # add `/node_modules/.bin` to $PATH

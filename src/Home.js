@@ -8,10 +8,12 @@ class Home extends Component {
     <div className="App">
     <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
-    <h1 className="App-title">Solceller</h1>
+    <h1 className="App-title">Solify</h1>
     </header>
     <p className="App-intro">
-        Välkommen till SolSidan!
+        Välkommen till Solify! </p>
+    <p> 
+        Här kan du i ett steg få fram din brf:s potential till och förtjänst på att installera solceller. 
     </p>
         <Search />
     </div>

@@ -18,7 +18,7 @@ class SearchResult extends Component {
                 console.log(this.state.props);
                 return (
                 <div>
-                <h1>Detta är data för sökta address: </h1>
+                <h2>Nedan ser du brf:ens solpotential: </h2>
                 <p>{"Takyta: " + this.state.props.takyta + " m2"}</p>
                 <p>{"Takyta_1000: " + this.state.props.tak_1000 + " m2"}</p>
                 <p>{"Takyta_950_10: " + this.state.props.tak_950_10 + " m2"}</p>

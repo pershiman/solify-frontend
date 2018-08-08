@@ -102,11 +102,11 @@ class Search extends Component {
     return (
       <form onSubmit={this.submitForm}>
         <input
-          placeholder="Search for..."
+          placeholder="Skriv in din brf:s address här.."
           ref={input => this.search = input}
           onChange={this.handleInputChange}    
         />
-        <Button color="primary" onClick={() => this.getInfo()}>Search</Button>
+        <Button color="primary" onClick={() => this.getInfo()}>Sök</Button>
       </form>
     )
   }
